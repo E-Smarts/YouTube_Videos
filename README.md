@@ -1,6 +1,6 @@
 # Welcome to Ghansham Irashetti's Code Repository! 🚀
 
-[![GitHub stars](https://img.shields.io/github/stars/Ghansham2004/E-Smarts?style=social)](https://github.com/Ghansham2004/E-Smarts/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/E-Smarts?style=plastic)](https://github.comE-Smarts/)
 
 Hey there! Welcome to the official repository of Ghansham Irashetti's YouTube channel. This repository contains all the code folders and projects featured in our videos. Explore, learn, and feel free to contribute!
 
