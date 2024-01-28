@@ -5,7 +5,7 @@
 Hey there! Welcome to the official repository of Ghansham Irashetti's YouTube channel. This repository contains all the code folders and projects featured in our videos. Explore, learn, and feel free to contribute!
 
 🎥 **About Ghansham Irashetti:**
-Ghansham Irashetti is a passionate developer and the creator behind this YouTube channel. The channel is dedicated to making coding accessible and exciting for learners and professionals alike.
+Ghansham Irashetti is a passionate coder and the creator behind this YouTube channel. 
 
 📁 **Code Folders:**
 - Each folder corresponds to a specific video on the Ghansham Irashetti YouTube channel.
