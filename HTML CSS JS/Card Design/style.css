@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1612837017391-8b9b6b7b9b0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvb3RpbmclMjB3b3JrJTIwc2hvd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 46px;
+  padding: 46px;
+}
+.card {
+  min-width: 300px;
+  max-width: 380px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  border-radius: 10px;
+  padding: 6px;
+  padding-bottom: 16px;
+  box-shadow: 2px 4px 12px rgba(46, 46, 46, 0.096);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 20px rgba(46, 46, 46, 0.096);
+}
+
+.card-thumbnail {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-thumbnail i {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-thumbnail i:hover {
+  color: #ff0000;
+}
+
+.card-thumbnail img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  object-fit: cover;
+}
+
+.card-thumbnail img:hover {
+  transform: scale(1.1);
+}
+
+.card-info {
+  width: 100%;
+  padding: 0 4px;
+}
+
+.card-info .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.card-info .top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.card-info .top p {
+  width: 90%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #333333;
+}
+
+.card-info .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info .bottom h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.card-info .bottom h4 span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #686868;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.card-info .bottom button {
+  border-radius: 6px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-info .bottom button:hover {
+  background-color: #1f1f1f;
+  box-shadow: 2px 4px 12px rgba(46, 46, 46, 0.096);
+}
