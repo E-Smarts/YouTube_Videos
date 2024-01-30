@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <title>Pre-Loader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ripple-loader-container">
+      <div class="ripple-loader">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <h2>
+      <button onclick="showLoader()">Show Loader</button>
+      <h3>loader will be hidden after 5 seconds automatically</h3>
+    </h2>
+
+    <!-- Script -->
+    <script>
+      // you can call this function if you want to show loader on page load or any other event
+      function showLoader() {
+        document.querySelector(".ripple-loader-container").style.display =
+          "flex";
+        // hide loader after 5 seconds
+        setTimeout(() => {
+          document.querySelector(".ripple-loader-container").style.display =
+            "none";
+        }, 5000);
+      }
+    </script>
+  </body>
+</html>
